@@ -27,7 +27,8 @@ public class balance : MonoBehaviour
     public void ButtonClick()
     {
         BalanceNumber+=10;
-        
+        Debug.Log($"count: {BalanceNumber += 10}");
+
     }
 
 
