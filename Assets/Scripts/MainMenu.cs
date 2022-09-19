@@ -5,29 +5,26 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
-{ 
+{
     [SerializeField] Button startButton;
     [SerializeField] Button optionenButton;
+
+    private GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
-        startButton.onClick.AddListener(LoadScene);
-        optionenButton.onClick.AddListener(LoadSceneTwo);
+        gameManager = FindObjectOfType<GameManager>();
+        startButton.onClick.AddListener(LoadStartScene);
+        optionenButton.onClick.AddListener(LoadOptions);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void LoadStartScene()
     {
-        
+        gameManager.LoadScene("TestScene");
     }
 
-    public static void LoadScene()
+    private void LoadOptions()
     {
-        SceneManager.LoadScene("ManagmentScene", LoadSceneMode.Single);
-    }
-
-    public static void LoadSceneTwo()
-    {
-        SceneManager.LoadScene("Optionen", LoadSceneMode.Single);
+        gameManager.LoadScene("Optionen");
     }
 }
