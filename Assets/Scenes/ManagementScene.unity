@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &115828046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,8 +196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cb16aab2c211f1489eba8b7ef45c475, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cash: 20
-  moneyOnCard: 0
 --- !u!4 &1290204056
 Transform:
   m_ObjectHideFlags: 0

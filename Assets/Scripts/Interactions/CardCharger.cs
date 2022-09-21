@@ -27,6 +27,9 @@ public class CardCharger : MonoBehaviour, IInteract
             camera1.enabled = true;
             _isInCamera = true;
             _player.SetActive(false);
+
+            Cursor.lockState = CursorLockMode.Confined;
+            
             return true;
         } 
         else
@@ -46,5 +49,7 @@ public class CardCharger : MonoBehaviour, IInteract
         camera1.enabled = false;
         _player.SetActive(true);
         _isInCamera = false;
+
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }
