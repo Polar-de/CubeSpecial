@@ -105,7 +105,6 @@ public class CardChargerUI : MonoBehaviour
         if (hit.transform.name == "geldschein" && balanceUI.activeSelf)
         {
             closeBtn.onClick.RemoveListener(GiveCardBack);
-            Debug.Log(_gameData.Cash);
             var pos = hit.transform.localPosition;
             StartCoroutine(Animation(hit, pos, cashPos));
             if (_gameData.Cash > 0)
@@ -157,7 +156,6 @@ public class CardChargerUI : MonoBehaviour
         yield return new WaitForSeconds(time);
         acceptBtn.onClick.AddListener(Charge);
         closeBtn.onClick.AddListener(GiveCardBack);
-        Debug.Log("JAAAAAAAAAAAAAAAA");
     }
 
     private IEnumerator Animation(RaycastHit hit, Vector3 from, Vector3 to)
