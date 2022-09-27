@@ -108,7 +108,10 @@ public class CardChargerUI : MonoBehaviour
             var pos = hit.transform.localPosition;
             StartCoroutine(Animation(hit, pos, cashPos));
             if (_gameData.Cash > 0)
+            {
                 _gameData.ChargeAmount += 10f;
+                _gameData.Cash -= 10;
+            }
         }
     }
 
