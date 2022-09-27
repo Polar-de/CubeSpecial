@@ -32,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI/Hilfe.unity
     guid: 07818c8437874ee4796c62d7bfb8a072
+  - enabled: 1
+    path: Assets/Scenes/UI/OptionenButtonInGame.unity
+    guid: 650d9ecb2fece1d4c969e62a9bfe6159
+  - enabled: 1
+    path: Assets/Scenes/UI/OptionenInGame.unity
+    guid: 0628d411092150a47b3744d6a67d4207
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 31e7f13e4cb88924eaef20bdfbaa76a5
   m_configObjects: {}
