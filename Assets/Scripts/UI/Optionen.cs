@@ -7,20 +7,18 @@ using UnityEngine.SceneManagement;
 public class Optionen : MonoBehaviour
 {
     [SerializeField] Button closeButton;
+
+    private GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
-        closeButton.onClick.AddListener(LoadScene);
+        gameManager = FindObjectOfType<GameManager>();
+        closeButton.onClick.AddListener(LoadMainMenu);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-    public static void LoadScene()
+    private void LoadMainMenu()
     {
-        SceneManager.LoadScene("MainMenuUI", LoadSceneMode.Single);
+        gameManager.LoadScene("MainMenuUI");
     }
 }

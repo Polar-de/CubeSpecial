@@ -7,20 +7,19 @@ using UnityEngine.SceneManagement;
 public class Hilfe : MonoBehaviour
 {
     [SerializeField] Button helpButton;
+
+    private GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
-        helpButton.onClick.AddListener(LoadScene);
+        gameManager = FindObjectOfType<GameManager>();
+        helpButton.onClick.AddListener(LoadHelpScene);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-    public static void LoadScene()
+
+    private void LoadHelpScene()
     {
-        SceneManager.LoadScene("Hilfe", LoadSceneMode.Single);
+        gameManager.LoadScene("Hilfe");
     }
 }

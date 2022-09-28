@@ -31,19 +31,13 @@ public class Kasse : MonoBehaviour, IInteract
                 // _gameData.payed = true;
                 return true;
             }
-            else
-            {
-                //TODO Message: not enough money on card
-                Debug.Log("Du musst erst dein Karte aufladen");
-                return false;
-            }
-        }
-        else
-        {
-            //TODO Message
-            Debug.Log("Wähle erst deine Speisen");
+
+            NotificationSystem.Instance.Notification("Sie müssen erst ihre Smartcard aufladen");
             return false;
         }
+
+        NotificationSystem.Instance.Notification("Holen sie sich erst ihr Essen");
+        return false;
     }
 
     IEnumerator Pay()
@@ -53,6 +47,7 @@ public class Kasse : MonoBehaviour, IInteract
         _gameData.Price = 0f;
         _gameData.payed = true;
         uiText.text = $"0,00€";
+        _gameData.questID = 6;
         yield return new WaitForSecondsRealtime(2f);
         uiText.text = defaultTextUI;
     }

@@ -17,10 +17,15 @@ public class GameData : MonoBehaviour
         Cash = 20f;
     }
 
+    public bool hasTablet;
+    
     public bool mainCourse;
     public bool sideDish;
     public bool appetizer;
     public bool dessert;
+    public bool drink;
     
     public bool payed;
+
+    public int questID;
 }

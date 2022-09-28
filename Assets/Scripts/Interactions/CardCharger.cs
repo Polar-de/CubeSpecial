@@ -7,6 +7,7 @@ public class CardCharger : MonoBehaviour, IInteract
 {
     [SerializeField] private string interactionPrompt;
     [SerializeField] private Camera camera1;
+    [SerializeField] private GameObject helpUI;
 
     private Camera _mainCam;
     private GameObject _player;
@@ -23,9 +24,9 @@ public class CardCharger : MonoBehaviour, IInteract
     {
         if (!_isInCamera)
         {
-            Debug.Log("KARTEEE");
             camera1.enabled = true;
             _isInCamera = true;
+            helpUI.SetActive(true);
             _player.SetActive(false);
 
             Cursor.lockState = CursorLockMode.Confined;
@@ -38,7 +39,7 @@ public class CardCharger : MonoBehaviour, IInteract
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && _isInCamera)
+        if (Input.GetKeyDown(KeyCode.Backspace) && _isInCamera)
         {
             CloseCardCharger();
         }
@@ -47,6 +48,7 @@ public class CardCharger : MonoBehaviour, IInteract
     private void CloseCardCharger()
     {
         camera1.enabled = false;
+        helpUI.SetActive(false);
         _player.SetActive(true);
         _isInCamera = false;
 
