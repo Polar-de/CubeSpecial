@@ -51,12 +51,15 @@ public class CardChargerUI : MonoBehaviour
                 RaycastHit hit;
 
                 if (Physics.Raycast(ray, out hit))
-                {
-                    if (hit.transform != null)
-                        HandleHit(hit);
-                }
+                    HandleHit(hit);
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            Charge();
+        }
+        
         HandleBalance();
     }
 
@@ -97,7 +100,7 @@ public class CardChargerUI : MonoBehaviour
             waitingUI.SetActive(true);
             StartCoroutine(Animation(hit, _smartCardPos, _smartCardPosNew));
             StartCoroutine(ChangeUI(waitingUI, balanceUI, 1.5f));
-            StartCoroutine(AddListener(1.6f));
+            StartCoroutine(AddListener(2f));
             
             ShowCash();
         }
@@ -156,7 +159,7 @@ public class CardChargerUI : MonoBehaviour
 
     private IEnumerator AddListener(float time)
     {
-        yield return new WaitForSeconds(time);
+        yield return new WaitForSecondsRealtime(time);
         acceptBtn.onClick.AddListener(Charge);
         closeBtn.onClick.AddListener(GiveCardBack);
     }

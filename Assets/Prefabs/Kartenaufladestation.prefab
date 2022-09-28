@@ -641,6 +641,11 @@ PrefabInstance:
       propertyPath: m_BlockingMask.m_Bits
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2676884280518116892, guid: 6c1b450e8fdabcb40858a13d3d88585c,
+        type: 3}
+      propertyPath: m_IgnoreReversedGraphics
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2676884280518116893, guid: 6c1b450e8fdabcb40858a13d3d88585c,
         type: 3}
       propertyPath: m_Pivot.x
