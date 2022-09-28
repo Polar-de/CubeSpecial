@@ -2393,7 +2393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.43529412}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2511,7 +2511,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1649081323}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c88d39ebe62f32c4482a70d2ff9f9ecc, type: 3}
+  m_Script: {fileID: 11500000, guid: ec2065bc3008ada4a91471fc00df4010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   closeButton: {fileID: 365075974}

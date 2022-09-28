@@ -4,22 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Hilfe : MonoBehaviour
+
+public class Intro : MonoBehaviour
 {
-    [SerializeField] Button helpButton;
+    [SerializeField] Button continueButton;
 
     private GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
-        helpButton.onClick.AddListener(LoadHelpScene);
+        continueButton.onClick.AddListener(LoadTestScene);
     }
 
-
-
-    private void LoadHelpScene()
+    // Update is called once per frame
+    private void LoadTestScene()
     {
-        gameManager.LoadScene("Hilfe");
-    }
+        gameManager.LoadScene("TestScene");
+    } 
 }

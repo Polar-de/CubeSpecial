@@ -11,16 +11,16 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        LoadScene("MainMenu");
+        LoadScene("MainMenuUI");
     }
 
-    private void LoadScene(string sceneName)
+    public void LoadScene(string sceneName)
     {
         UnloadAllNonPersistentScenes();
         SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
     }
     
-    private void LoadScene(string[] scenes)
+    public void LoadScene(string[] scenes)
     {
         UnloadAllNonPersistentScenes();
         foreach (var scene in scenes)
