@@ -2,34 +2,33 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    [SerializeField] private Transform interactionPoint;
-    [SerializeField] private float interactionRadius;
-    [SerializeField] private LayerMask interactableLayer;
+    // private UnityEvent _event;
+    [SerializeField] private LayerMask interactableLayerMask;
+    [SerializeField] private float raycastMaxDistance;
     [SerializeField] private InteractionUI interactionUI;
 
-    private Collider[] _colliders = new Collider[3];
-    private int _colAmountFound;
-
+    private Camera _cam;
     private IInteract _interact;
-
     private bool _isInInteraction;
+
+    private void Start()
+    {
+        _cam = Camera.main;
+    }
 
     private void Update()
     {
-        _colAmountFound =
-            Physics.OverlapSphereNonAlloc(interactionPoint.position, interactionRadius, _colliders, interactableLayer);
-        // Debug.Log(_colAmountFound);
-
-        if (_colAmountFound > 0)
+        RaycastHit hit;
+        if (Physics.Raycast(_cam.transform.position, _cam.transform.forward, out hit, raycastMaxDistance, interactableLayerMask))
         {
-            _interact = _colliders[0].GetComponent<IInteract>();
-
-            if (_interact != null && !_isInInteraction)
+            _interact = hit.collider.GetComponent<IInteract>();
+            if (hit.collider != null && !_isInInteraction)
             {
-                if (!interactionUI.isActive) interactionUI.InteractPrompt(_interact.InteractionPrompt);
+                if(!interactionUI.isActive) interactionUI.InteractPrompt(_interact.InteractionPrompt);
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -45,11 +44,5 @@ public class PlayerInteraction : MonoBehaviour
             _interact = null;
             if (interactionUI.isActive) interactionUI.Close();
         }
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.magenta;
-        Gizmos.DrawWireSphere(interactionPoint.position, interactionRadius);
     }
 }

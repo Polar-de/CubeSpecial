@@ -8,4 +8,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/UI/MainMenuUI.unity
+    guid: 16d662f3bf4f008489faec3e9fb43cc0
+  - enabled: 1
+    path: Assets/Scenes/ManagementScene.unity
+    guid: 4a073719785641544bfb583e13a215f1
+  - enabled: 1
+    path: Assets/Scenes/UI/CashRegisterUI.unity
+    guid: 3f76fbcc269167f448e457785933ca4d
+  - enabled: 1
+    path: Assets/Scenes/MarenScene.unity
+    guid: 6c91d2727ac61a94693825300d6b53cf
+  - enabled: 1
+    path: Assets/Scenes/UI/Optionen.unity
+    guid: 45f21f87b37a4ed44b506b4cf6e89cf2
+  - enabled: 1
+    path: Assets/Scenes/UI/OverlayUI.unity
+    guid: 93050889fb9001f4b81bf554d6a18025
+  - enabled: 1
+    path: Assets/Scenes/UI/Pause.unity
+    guid: e5c441d668c878f4788f370a9c6f306e
+  - enabled: 1
+    path: Assets/Scenes/UI/Hilfe.unity
+    guid: 07818c8437874ee4796c62d7bfb8a072
   m_configObjects: {}
