@@ -14,12 +14,19 @@ public class Intro : MonoBehaviour
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
-        continueButton.onClick.AddListener(LoadTestScene);
+        continueButton.onClick.AddListener(LoadGame);
+        StartCoroutine(StartGame());
     }
 
-    // Update is called once per frame
-    private void LoadTestScene()
+    IEnumerator StartGame()
     {
-        gameManager.LoadScene("TestScene");
+        yield return new WaitForSecondsRealtime(15f);
+        gameManager.LoadScene("GameScene");
+    }
+    
+    // Update is called once per frame
+    private void LoadGame()
+    {
+        gameManager.LoadScene("GameScene");
     } 
 }

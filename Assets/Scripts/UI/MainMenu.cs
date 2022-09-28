@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour
 
     private void LoadIntro()
     {
-        gameManager.LoadScene(new[] { "Intro", "TestScene" });
+        gameManager.LoadScene("Intro");
     }
 
     private void LoadOptions()

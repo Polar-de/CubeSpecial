@@ -6,20 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TestScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/ManagementScene.unity
+    guid: 4a073719785641544bfb583e13a215f1
   - enabled: 1
     path: Assets/Scenes/UI/MainMenuUI.unity
     guid: 16d662f3bf4f008489faec3e9fb43cc0
   - enabled: 1
-    path: Assets/Scenes/ManagementScene.unity
-    guid: 4a073719785641544bfb583e13a215f1
+    path: Assets/Scenes/Intro.unity
+    guid: 31e7f13e4cb88924eaef20bdfbaa76a5
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/UI/CashRegisterUI.unity
     guid: 3f76fbcc269167f448e457785933ca4d
-  - enabled: 1
-    path: Assets/Scenes/MarenScene.unity
-    guid: 6c91d2727ac61a94693825300d6b53cf
   - enabled: 1
     path: Assets/Scenes/UI/Optionen.unity
     guid: 45f21f87b37a4ed44b506b4cf6e89cf2
