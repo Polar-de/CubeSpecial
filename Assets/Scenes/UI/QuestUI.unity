@@ -1152,7 +1152,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Betrete den Speisesaal
+  m_text: Betreten Sie den Speisesaal
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1215,7 +1215,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -89.49048, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1264,7 +1264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 195.6947, y: -120.666565}
+  m_AnchoredPosition: {x: 68, y: -101}
   m_SizeDelta: {x: 359.2034, y: 89.8242}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &413157550
@@ -1714,8 +1714,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -309.5266, y: -60}
-  m_SizeDelta: {x: 549.0533, y: 55}
+  m_AnchoredPosition: {x: -370.4298, y: -60}
+  m_SizeDelta: {x: 670.8597, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &538908215
 MonoBehaviour:
@@ -1737,7 +1737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Suche dir ein Hauptgericht aus
+  m_text: Suchen Sie sich ein Hauptgericht aus
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2087,7 +2087,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Nimm dir ein Tablett
+  m_text: Nehmen Sie sich ein Tablett
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2150,7 +2150,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -156.60815, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2334,8 +2334,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 195.69, y: -87.841675}
-  m_SizeDelta: {x: -498.0675, y: 2.4783}
+  m_AnchoredPosition: {x: 54, y: -74}
+  m_SizeDelta: {x: -89.5777, y: 2.4783}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1084896693
 MonoBehaviour:
@@ -2767,8 +2767,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 113.27356, y: -94.30267}
-  m_SizeDelta: {x: -159.5851, y: 16.7949}
+  m_AnchoredPosition: {x: 161.19627, y: -94.30267}
+  m_SizeDelta: {x: -255.4226, y: 16.7949}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1255244528
 MonoBehaviour:
@@ -2962,7 +2962,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1449271658
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2982,8 +2982,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -478.7679, y: -60}
-  m_SizeDelta: {x: 887.5357, y: 55}
+  m_AnchoredPosition: {x: -233.41, y: -60}
+  m_SizeDelta: {x: 430.1404, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1449271659
 MonoBehaviour:
@@ -3005,7 +3005,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bringen Sie Ihr Tablett zur Tablettr\xFCckgabe"
+  m_text: "Die Tablettr\xFCckgabe"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3771,8 +3771,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110.701294, y: -120.666565}
-  m_SizeDelta: {x: 359.2034, y: 89.8242}
+  m_AnchoredPosition: {x: 165.31, y: -113}
+  m_SizeDelta: {x: 330.6162, y: 89.8242}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2006997113
 MonoBehaviour:
