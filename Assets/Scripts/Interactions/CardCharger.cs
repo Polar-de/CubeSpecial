@@ -2,14 +2,21 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class CardCharger : MonoBehaviour, IInteract
 {
     [SerializeField] private string interactionPrompt;
     [SerializeField] private Camera camera1;
 
+    private Camera _mainCam;
+    private GameObject _player;
     private bool _isInCamera;
+
+    private void Start()
+    {
+        _mainCam = Camera.main;
+        _player = GameObject.FindWithTag("Player");
+    }
 
     public string InteractionPrompt => interactionPrompt;
     public bool Interact(PlayerInteraction playerInteraction)
@@ -19,6 +26,10 @@ public class CardCharger : MonoBehaviour, IInteract
             Debug.Log("KARTEEE");
             camera1.enabled = true;
             _isInCamera = true;
+            _player.SetActive(false);
+
+            Cursor.lockState = CursorLockMode.Confined;
+            
             return true;
         } 
         else
@@ -36,6 +47,9 @@ public class CardCharger : MonoBehaviour, IInteract
     private void CloseCardCharger()
     {
         camera1.enabled = false;
+        _player.SetActive(true);
         _isInCamera = false;
+
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }
