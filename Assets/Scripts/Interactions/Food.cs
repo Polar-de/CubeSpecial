@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum TypeOfFood{MainCourse, Appetizer, SideDish, Dessert}
+public enum TypeOfFood{MainCourse, Appetizer, SideDish, Dessert, Drink}
 public class Food : MonoBehaviour, IInteract
 {
     [SerializeField] private string interactionPrompt;
@@ -29,6 +29,7 @@ public class Food : MonoBehaviour, IInteract
                 if (!_gameData.mainCourse)
                 {
                     _gameData.mainCourse = true;
+                    _gameData.questID = 3;
                     GetFood();
                     return true;
                 }
@@ -41,6 +42,7 @@ public class Food : MonoBehaviour, IInteract
                 if (!_gameData.sideDish)
                 {
                     _gameData.mainCourse = true;
+                    _gameData.questID = 4;
                     GetFood();
                     return true;
                 }
@@ -53,6 +55,7 @@ public class Food : MonoBehaviour, IInteract
                 if (!_gameData.appetizer)
                 {
                     _gameData.appetizer = true;
+                    _gameData.questID = 4;
                     GetFood();
                     return true;
                 }
@@ -65,12 +68,25 @@ public class Food : MonoBehaviour, IInteract
                 if (!_gameData.dessert)
                 {
                     _gameData.dessert = true;
+                    _gameData.questID = 4;
                     GetFood();
                     return true;
                 }
                 else
                 {
                     Debug.Log("Du hast schon ein Dessert.");
+                    return false;
+                }
+            case TypeOfFood.Drink:
+                if (!_gameData.drink)
+                {
+                    _gameData.drink = true;
+                    _gameData.questID = 5;
+                    GetFood();
+                    return true;
+                }
+                else
+                {
                     return false;
                 }
         }
@@ -81,7 +97,8 @@ public class Food : MonoBehaviour, IInteract
     private void GetFood()
     {
         foodOnTablet.SetActive(true);
-        foodGone.SetActive(false);
+        if (foodGone != null)
+            foodGone.SetActive(false);
 
         _gameData.Price += price;
     }

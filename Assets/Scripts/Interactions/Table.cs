@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro.Examples;
@@ -14,6 +15,13 @@ public class Table : MonoBehaviour, IInteract
     private Color _color1 = new Color(0, 0, 0, 0);
     private Color _color2 = new Color(0, 0, 0, 1);
 
+    private GameData _gameData;
+
+    private void Start()
+    {
+        _gameData = FindObjectOfType<GameData>();
+    }
+
     public string InteractionPrompt => interactionPrompt;
     public bool Interact(PlayerInteraction playerInteraction)
     {
@@ -22,6 +30,7 @@ public class Table : MonoBehaviour, IInteract
             StartCoroutine(Darken(_color1, _color2, 1f));
             tabletFull.SetActive(false);
             tabletEmpty.SetActive(true);
+            _gameData.questID = 8;
             return true;
         }
         else

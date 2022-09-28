@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15777826, g: 0.18142766, b: 0.19728386, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -200,7 +200,9 @@ MonoBehaviour:
   sideDish: 0
   appetizer: 0
   dessert: 0
+  drink: 0
   payed: 0
+  questID: 0
 --- !u!4 &1290204056
 Transform:
   m_ObjectHideFlags: 0
@@ -232,7 +234,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1585627891
 AudioSource:
   m_ObjectHideFlags: 0

@@ -140,6 +140,7 @@ public class CardChargerUI : MonoBehaviour
         StartCoroutine(Animation(_smartCard, _smartCardPosNew, _smartCardPos));
         StartCoroutine(ChangeUI(balanceUI, successUI, 0.2f));
         StartCoroutine(ChangeUI(successUI, mainUI, 1f));
+        _gameData.questID = 1;
     }
 
     private void GiveCardBack()

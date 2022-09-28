@@ -7,6 +7,7 @@ public class CardCharger : MonoBehaviour, IInteract
 {
     [SerializeField] private string interactionPrompt;
     [SerializeField] private Camera camera1;
+    private AudioListener _audioListener;
 
     private Camera _mainCam;
     private GameObject _player;
@@ -16,6 +17,7 @@ public class CardCharger : MonoBehaviour, IInteract
     {
         _mainCam = Camera.main;
         _player = GameObject.FindWithTag("Player");
+        _audioListener = camera1.GetComponent<AudioListener>();
     }
 
     public string InteractionPrompt => interactionPrompt;
@@ -25,6 +27,7 @@ public class CardCharger : MonoBehaviour, IInteract
         {
             Debug.Log("KARTEEE");
             camera1.enabled = true;
+            _audioListener.enabled = true;
             _isInCamera = true;
             _player.SetActive(false);
 
@@ -47,6 +50,7 @@ public class CardCharger : MonoBehaviour, IInteract
     private void CloseCardCharger()
     {
         camera1.enabled = false;
+        _audioListener.enabled = false;
         _player.SetActive(true);
         _isInCamera = false;
 

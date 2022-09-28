@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private readonly string[] _persistentScenes = {"ManagementScene"};
+    private readonly string[] _persistentScenes = {"ManagementScene", "TestScene"};
 
     private void Start()
     {

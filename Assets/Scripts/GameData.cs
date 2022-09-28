@@ -21,6 +21,9 @@ public class GameData : MonoBehaviour
     public bool sideDish;
     public bool appetizer;
     public bool dessert;
+    public bool drink;
     
     public bool payed;
+
+    public int questID;
 }

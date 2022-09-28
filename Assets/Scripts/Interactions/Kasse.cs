@@ -53,6 +53,7 @@ public class Kasse : MonoBehaviour, IInteract
         _gameData.Price = 0f;
         _gameData.payed = true;
         uiText.text = $"0,00€";
+        _gameData.questID = 6;
         yield return new WaitForSecondsRealtime(2f);
         uiText.text = defaultTextUI;
     }

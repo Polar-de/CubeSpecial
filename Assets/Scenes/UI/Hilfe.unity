@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1174,9 +1174,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "An manchen Bereichen in der Mensa besteht die M\xF6glichkeit mittels der
-    E-Taste mit Personen oder Objekten zu interagieren.\n\n\nWenn es mehrere Auswahlm\xF6glichkeiten
-    gibt, kannst du mit den Pfeiltasten zwischen den Optionen wechseln und diese
-    dann mit der Enter-Taste best\xE4tigen."
+    E-Taste mit Personen oder Objekten zu interagieren.\n\n\n\n Mit der Enter-Taste
+    kannst du an dem Smartcard Automat die Einzahlung best\xE4tigen und mit der Backspace-Taste
+    Abbrechen "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
