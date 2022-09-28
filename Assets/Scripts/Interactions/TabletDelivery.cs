@@ -23,12 +23,12 @@ public class TabletDelivery : MonoBehaviour, IInteract
         {
             tablet.SetActive(false);
             tabletDelivered.SetActive(true);
+            _gameData.hasTablet = false;
             _gameData.questID = 9;
             return true;
         }
-        else
-        {
-            return false;
-        }
+
+        NotificationSystem.Instance.Notification("Sie haben kein Tablett zum abgeben");
+        return false;
     }
 }

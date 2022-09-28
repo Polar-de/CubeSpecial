@@ -17,16 +17,22 @@ public class GetCutlery : MonoBehaviour, IInteract
 
     public bool Interact(PlayerInteraction playerInteraction)
     {
-        if (!cutlery.activeSelf)
+        if (!cutlery.activeSelf && _gameData.payed)
         {
             cutlery.SetActive(true);
             _gameData.questID = 7;
             return true;
         }
-        else
+        if (!_gameData.payed)
         {
-            // TODO Nachricht "Du hast schon Besteck"
+            NotificationSystem.Instance.Notification("Sie müssen sich erst ihr Essen holen und bezahlen");
             return false;
         }
+        if (cutlery.activeSelf)
+        {
+            NotificationSystem.Instance.Notification("Sie haben schon Besteck");
+            return false;
+        }
+        return false;
     }
 }

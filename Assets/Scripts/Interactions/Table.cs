@@ -10,10 +10,7 @@ public class Table : MonoBehaviour, IInteract
     [SerializeField] private string interactionPrompt;
     [SerializeField] private GameObject tabletFull;
     [SerializeField] private GameObject tabletEmpty;
-    [SerializeField] private Image darken;
-
-    private Color _color1 = new Color(0, 0, 0, 0);
-    private Color _color2 = new Color(0, 0, 0, 1);
+    [SerializeField] private GameObject darkenImage;
 
     private GameData _gameData;
 
@@ -25,40 +22,44 @@ public class Table : MonoBehaviour, IInteract
     public string InteractionPrompt => interactionPrompt;
     public bool Interact(PlayerInteraction playerInteraction)
     {
-        if (tabletFull.activeSelf)
+        if (_gameData.payed)
         {
-            StartCoroutine(Darken(_color1, _color2, 1f));
+            StartCoroutine(Darken(1f));
             tabletFull.SetActive(false);
             tabletEmpty.SetActive(true);
             _gameData.questID = 8;
             return true;
         }
-        else
+
+        if (!_gameData.payed)
         {
+            NotificationSystem.Instance.Notification("Sie müssen erst bezahlen");
             return false;
         }
+        
+        NotificationSystem.Instance.Notification("Sie müssen sich erst essen holen");
+        return false;
     }
 
-    IEnumerator Darken(Color a, Color b, float duration)
+    IEnumerator Darken(float duration)
     {
-        float timeElapsed = 0f;
-        while (duration > timeElapsed)
+        var color = darkenImage.GetComponent<Image>().color;
+        
+        while (color.a < 1)
         {
-            float t = timeElapsed / duration;
-            darken.material.color = Color.Lerp(a, b, t);
-            timeElapsed += Time.deltaTime;
+            color = new Color(color.r, color.g, color.b, color.a + (duration * Time.deltaTime));
+            darkenImage.GetComponent<Image>().color = color;
             yield return null;
         }
 
-        yield return new WaitForSecondsRealtime(duration);
+        yield return new WaitForSecondsRealtime(1f);
         
-        timeElapsed = 0f;
-        while (duration > timeElapsed)
+        while (color.a > 0)
         {
-            float t = timeElapsed / duration;
-            darken.material.color = Color.Lerp(b, a, t);
-            timeElapsed += Time.deltaTime;
+            color = new Color(color.r, color.g, color.b, color.a - (duration * Time.deltaTime));
+            darkenImage.GetComponent<Image>().color = color;
             yield return null;
-        }
+        } 
+        
     }
 }

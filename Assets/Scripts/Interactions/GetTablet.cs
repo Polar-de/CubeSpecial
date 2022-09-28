@@ -18,17 +18,21 @@ public class GetTablet : MonoBehaviour, IInteract
 
     public bool Interact(PlayerInteraction playerInteraction)
     {
-        if (!tabletPrefab.activeSelf)
+        if (!tabletPrefab.activeSelf && !_gameData.hasTablet && _gameData.MoneyOnCard > 0)
         {
             tabletPrefab.SetActive(true);
+            _gameData.hasTablet = true;
             _gameData.questID = 2;
             return true;
         }
-        else
+
+        if (_gameData.hasTablet)
         {
-            // TODO Nachricht "Du hast schon ein Tablett"
-            Debug.Log("ASDASDASDASDASD");
+            NotificationSystem.Instance.Notification("Sie haben schon ein Tablett");
             return false;
         }
+
+        NotificationSystem.Instance.Notification("Laden sie erst die Smartcard auf");
+        return false;
     }
 }

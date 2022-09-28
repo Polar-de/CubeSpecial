@@ -25,7 +25,6 @@ public class CardCharger : MonoBehaviour, IInteract
     {
         if (!_isInCamera)
         {
-            Debug.Log("KARTEEE");
             camera1.enabled = true;
             _audioListener.enabled = true;
             _isInCamera = true;

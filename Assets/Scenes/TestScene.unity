@@ -400,12 +400,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -1180,7 +1185,7 @@ Transform:
   - {fileID: 1182912863}
   - {fileID: 9347355}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &65964401
 PrefabInstance:
@@ -1500,12 +1505,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -1740,12 +1750,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -2020,12 +2035,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -3083,12 +3103,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -3794,12 +3819,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -5037,12 +5067,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -5139,12 +5174,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -6611,12 +6651,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -8095,12 +8140,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -8357,12 +8407,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -9120,7 +9175,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 152.314, y: 294.19202, z: 281.875}
 --- !u!114 &410087042
 MonoBehaviour:
@@ -9142,6 +9197,24 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!1 &413873764 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2094098462148570408, guid: b248e465cbf29cb42b1168fb28c86160,
+    type: 3}
+  m_PrefabInstance: {fileID: 8810173284493011625}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &413873765 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5677265157168541778, guid: b248e465cbf29cb42b1168fb28c86160,
+    type: 3}
+  m_PrefabInstance: {fileID: 8810173284493011625}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413873764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &422182456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9266,8 +9339,9 @@ Transform:
   - {fileID: 920803649526359773}
   - {fileID: 4394187460869749841}
   - {fileID: 1353403154}
+  - {fileID: 1208414363}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &436272151
 GameObject:
@@ -9724,82 +9798,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 454117053}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &464023958
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 464023959}
-  - component: {fileID: 464023961}
-  - component: {fileID: 464023960}
-  m_Layer: 5
-  m_Name: Panel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &464023959
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464023958}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 751644906}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -150}
-  m_SizeDelta: {x: 500, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &464023960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464023958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.62319684, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &464023961
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464023958}
-  m_CullTransparentMesh: 1
 --- !u!1001 &477410118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11474,12 +11472,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -11699,12 +11702,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -12192,12 +12200,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -13246,12 +13259,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -14035,6 +14053,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 695408665}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &698463703 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 698463703, guid: b52e89da3c3a64d4780ea98292e3a1fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1822337816}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &706722775 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132148056468895, guid: b52e89da3c3a64d4780ea98292e3a1fe,
@@ -14336,7 +14360,7 @@ Transform:
   - {fileID: 1376530252}
   - {fileID: 116799767}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &716292056 stripped
 GameObject:
@@ -15052,12 +15076,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 742600237}
   m_PrefabAsset: {fileID: 0}
---- !u!224 &751644906 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8810173284476931699, guid: b248e465cbf29cb42b1168fb28c86160,
-    type: 3}
-  m_PrefabInstance: {fileID: 8810173284493011625}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &752825285 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0dc8041af85474f439a490691fe14a26,
@@ -15190,12 +15208,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -15395,12 +15418,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -16125,12 +16153,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -16780,12 +16813,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -17097,7 +17135,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &835557660
 PrefabInstance:
@@ -17321,10 +17359,10 @@ Transform:
   m_Children:
   - {fileID: 940450814}
   - {fileID: 1534581068}
-  - {fileID: 1213792760}
   - {fileID: 1870914702}
-  - {fileID: 1201713404}
+  - {fileID: 1213792760}
   - {fileID: 1884284712}
+  - {fileID: 1201713404}
   - {fileID: 952406520}
   - {fileID: 583192663}
   - {fileID: 450930286}
@@ -18124,12 +18162,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -18926,12 +18969,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -19124,12 +19172,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -19554,12 +19607,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -20541,12 +20599,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -20631,12 +20694,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -20865,12 +20933,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -21560,12 +21633,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -22146,12 +22224,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -23215,12 +23298,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -23604,12 +23692,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -23694,12 +23787,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -23860,12 +23958,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -24019,12 +24122,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -24249,12 +24357,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -24339,12 +24452,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -24429,12 +24547,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -24519,12 +24642,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -25173,6 +25301,66 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1201713403}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1208414362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1208414363}
+  - component: {fileID: 1208414364}
+  - component: {fileID: 1208414365}
+  m_Layer: 6
+  m_Name: Besteck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1208414363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208414362}
+  m_LocalRotation: {x: 0, y: -0.258819, z: 0, w: 0.9659259}
+  m_LocalPosition: {x: -7.11, y: 2.439, z: -8.397}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 433404744}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: -30, z: 0}
+--- !u!65 &1208414364
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208414362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.290751, y: 0.70736337, z: 0.53709733}
+  m_Center: {x: 0.031666517, y: 0.11659943, z: 0.061564658}
+--- !u!114 &1208414365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208414362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a66246ae46e874aad06aafe7a3e6ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionPrompt: Besteck nehmen
+  cutlery: {fileID: 698463703}
 --- !u!1001 &1210332884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26978,12 +27166,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -27264,12 +27457,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -28116,12 +28314,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -29950,12 +30153,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -31413,12 +31621,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -32410,6 +32623,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1544379048168544889, guid: 70d3efa21428cd6428469bdd09459621,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544379048168544889, guid: 70d3efa21428cd6428469bdd09459621,
+        type: 3}
       propertyPath: m_Intensity
       value: 5
       objectReference: {fileID: 0}
@@ -33232,12 +33450,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -33769,7 +33992,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1632909035
 PrefabInstance:
@@ -34208,12 +34431,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -35175,12 +35403,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -37217,6 +37450,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 698463703, guid: b52e89da3c3a64d4780ea98292e3a1fe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1833941345, guid: b52e89da3c3a64d4780ea98292e3a1fe, type: 3}
       propertyPath: interactionUI
       value: 
@@ -37269,7 +37506,7 @@ PrefabInstance:
     - target: {fileID: 7562738838681530611, guid: b52e89da3c3a64d4780ea98292e3a1fe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7562738838681530611, guid: b52e89da3c3a64d4780ea98292e3a1fe,
         type: 3}
@@ -37351,12 +37588,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -37706,12 +37948,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -38131,6 +38378,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 45494213}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1900452521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8274421842192660450, guid: b708d9f521d197449a77ecec6a4bd69a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8274421840838323531}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &1900452526
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900452521}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &1911455782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38142,12 +38407,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -39165,12 +39435,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -39445,12 +39720,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -40960,12 +41240,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -41929,6 +42214,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 433404744}
     m_Modifications:
+    - target: {fileID: 1826445074132735167, guid: 04c05c39d9077a942bed85b8904589d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6858987614024680779, guid: 04c05c39d9077a942bed85b8904589d8,
         type: 3}
       propertyPath: tablet
@@ -42191,12 +42481,17 @@ PrefabInstance:
         type: 3}
       propertyPath: darken
       value: 
-      objectReference: {fileID: 8810173284493011626}
+      objectReference: {fileID: 413873765}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletFull
       value: 
       objectReference: {fileID: 1386532527}
+    - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
+        type: 3}
+      propertyPath: darkenImage
+      value: 
+      objectReference: {fileID: 413873764}
     - target: {fileID: 919132149601345913, guid: 911ff5e16cbcb184587ebb5c95525b4c,
         type: 3}
       propertyPath: tabletEmpty
@@ -42629,7 +42924,7 @@ PrefabInstance:
     - target: {fileID: 5538603409069490516, guid: 7c6422b29a620884e9b8128c8d8aa20c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5538603409069490516, guid: 7c6422b29a620884e9b8128c8d8aa20c,
         type: 3}
@@ -42972,6 +43267,185 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 729200ce65c46b541a3cf0994ec57ef6, type: 3}
+--- !u!1001 &8274421840838323531
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8274421840752165443, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421840752165443, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421840752165453, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660449, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: fadeInDuration
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660449, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: fadeOutDuration
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660449, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: notificationDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660450, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_Name
+      value: NotificationSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842192660454, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842668604136, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842668604136, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842668604136, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_fontSizeMax
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842668604136, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842668604136, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274421842668604136, guid: b708d9f521d197449a77ecec6a4bd69a,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b708d9f521d197449a77ecec6a4bd69a, type: 3}
 --- !u!1001 &8631499811775331867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42979,6 +43453,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 433404744}
     m_Modifications:
+    - target: {fileID: 1826445074132735167, guid: 04c05c39d9077a942bed85b8904589d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6858987614024680779, guid: 04c05c39d9077a942bed85b8904589d8,
         type: 3}
       propertyPath: tablet
@@ -43101,6 +43580,11 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+    - target: {fileID: 1767074173480538539, guid: b248e465cbf29cb42b1168fb28c86160,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1858846731828651486, guid: b248e465cbf29cb42b1168fb28c86160,
         type: 3}
       propertyPath: m_Pivot.y
@@ -43431,10 +43915,50 @@ PrefabInstance:
       propertyPath: m_VerticalAlignment
       value: 512
       objectReference: {fileID: 0}
+    - target: {fileID: 1894457963800447080, guid: b248e465cbf29cb42b1168fb28c86160,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3697826691500489476, guid: b248e465cbf29cb42b1168fb28c86160,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3697826691500489476, guid: b248e465cbf29cb42b1168fb28c86160,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 110.8564
+      objectReference: {fileID: 0}
+    - target: {fileID: 3697826691500489476, guid: b248e465cbf29cb42b1168fb28c86160,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 62.3567
+      objectReference: {fileID: 0}
+    - target: {fileID: 3697826691500489476, guid: b248e465cbf29cb42b1168fb28c86160,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3697826691500489476, guid: b248e465cbf29cb42b1168fb28c86160,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4064285864340539732, guid: b248e465cbf29cb42b1168fb28c86160,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 300
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064285864340539732, guid: b248e465cbf29cb42b1168fb28c86160,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -111.907715
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677265157168541778, guid: b248e465cbf29cb42b1168fb28c86160,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7112253668248141139, guid: b248e465cbf29cb42b1168fb28c86160,
         type: 3}
@@ -43459,7 +43983,7 @@ PrefabInstance:
     - target: {fileID: 8810173284476931699, guid: b248e465cbf29cb42b1168fb28c86160,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8810173284476931699, guid: b248e465cbf29cb42b1168fb28c86160,
         type: 3}
@@ -43563,15 +44087,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b248e465cbf29cb42b1168fb28c86160, type: 3}
---- !u!114 &8810173284493011626 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1894457963800447080, guid: b248e465cbf29cb42b1168fb28c86160,
-    type: 3}
-  m_PrefabInstance: {fileID: 8810173284493011625}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
