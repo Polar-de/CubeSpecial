@@ -9,9 +9,20 @@ public class GameManager : MonoBehaviour
 {
     private readonly string[] _persistentScenes = {"ManagementScene", "GameScene"};
 
+    private GameData _gameData;
+    
     private void Start()
     {
+        _gameData = FindObjectOfType<GameData>();
         LoadScene("MainMenuUI");
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) && _gameData.isInGame)
+        {
+            LoadScene("Pause");
+        }
     }
 
     public void LoadScene(string sceneName)

@@ -10,10 +10,14 @@ public class Intro : MonoBehaviour
     [SerializeField] Button continueButton;
 
     private GameManager gameManager;
+
+    private GameData _gameData;
     // Start is called before the first frame update
     void Start()
     {
+        FindObjectOfType<GameData>();
         gameManager = FindObjectOfType<GameManager>();
+        _gameData = FindObjectOfType<GameData>();
         continueButton.onClick.AddListener(LoadGame);
         StartCoroutine(StartGame());
     }
@@ -21,12 +25,14 @@ public class Intro : MonoBehaviour
     IEnumerator StartGame()
     {
         yield return new WaitForSecondsRealtime(15f);
+        _gameData.isInGame = true;
         gameManager.LoadScene("GameScene");
     }
     
     // Update is called once per frame
     private void LoadGame()
     {
+        _gameData.isInGame = true;
         gameManager.LoadScene("GameScene");
     } 
 }

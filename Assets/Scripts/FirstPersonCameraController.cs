@@ -8,9 +8,10 @@ using UnityEngine;
 public class FirstPersonCameraController : MonoBehaviour
 {
     [Header("Settings")]
-    [SerializeField] private float mouseSensitivityX;
-    [SerializeField] private float mouseSensitivityY;
     [SerializeField] private float moveSpeed;
+
+
+    private GameData _gameData;
 
     
     // Camera Rotation
@@ -24,6 +25,11 @@ public class FirstPersonCameraController : MonoBehaviour
     private Vector3 _move;
     private void Start()
     {
+        _gameData = FindObjectOfType<GameData>();
+
+        _gameData.MouseX = 3f;
+        _gameData.MouseY = 3f;
+        
         Cursor.lockState = CursorLockMode.Locked;
         _characterController = GetComponent<CharacterController>();
         _camera = Camera.main;
@@ -43,8 +49,8 @@ public class FirstPersonCameraController : MonoBehaviour
         var inputX = Input.GetAxis("Mouse X");
         var inputY = Input.GetAxis("Mouse Y");
 
-        _rotationX -= inputY * mouseSensitivityY;
-        _rotationY += inputX * mouseSensitivityX;
+        _rotationX -= inputY * _gameData.MouseY;
+        _rotationY += inputX * _gameData.MouseX;
         _rotationX = Math.Clamp(_rotationX, -90f, 90f);
         
         _camera.transform.localRotation = Quaternion.Euler(_rotationX, 0f, 0f);
@@ -63,5 +69,5 @@ public class FirstPersonCameraController : MonoBehaviour
         
         _characterController.Move(_move * moveSpeed * Time.deltaTime);
     }
-    
+
 }
