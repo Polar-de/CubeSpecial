@@ -10,12 +10,24 @@ public class Pause : MonoBehaviour
     [SerializeField] Button continueButton;
     [SerializeField] Button menuButton;
     [SerializeField] Button optionsButton;
+    [SerializeField] Button beendenButton;
+
+    private GameManager gameManager;
+    private GameData _gameData;
 
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
+        _gameData = FindObjectOfType<GameData>();
+
+        _gameData.isInGame = false;
+        Cursor.lockState = CursorLockMode.Confined;
+        
+        continueButton.onClick.AddListener(Continue);
         menuButton.onClick.AddListener(LoadMenuScene);
         optionsButton.onClick.AddListener(LoadOptionsScene);
+        beendenButton.onClick.AddListener(QuitGame);
     }
 
     // Update is called once per frame
@@ -24,13 +36,26 @@ public class Pause : MonoBehaviour
         
     }
 
-    public static void LoadMenuScene()
+    private void Continue()
     {
-        SceneManager.LoadScene("MainMenuUI", LoadSceneMode.Single);
+        SceneManager.UnloadSceneAsync("Pause");
+        _gameData.isInGame = true;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    
+    private void LoadMenuScene()
+    {
+        gameManager.LoadScene("MainMenuUI");
+        SceneManager.UnloadSceneAsync("GameScene");
     }
 
-    public static void LoadOptionsScene()
+    private void LoadOptionsScene()
     {
-        SceneManager.LoadScene("Optionen", LoadSceneMode.Single);
+        gameManager.LoadScene("OptionenInGame");
+    }
+
+    private void QuitGame()
+    {
+        Application.Quit();
     }
 }

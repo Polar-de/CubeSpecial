@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -346,7 +346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1788, y: -82}
+  m_AnchoredPosition: {x: 1788, y: 12}
   m_SizeDelta: {x: 310.4846, y: 93.4554}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &335137421
@@ -995,7 +995,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 925, y: -422}
+  m_AnchoredPosition: {x: 925, y: -328}
   m_SizeDelta: {x: 423.1414, y: 169.631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &962945886
@@ -1165,7 +1165,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "An manchen Bereichen in der Mensa besteht die M\xF6glichkeit mittels der
-    E-Taste mit Personen oder Objekten zu interagieren.\n\n\n\nMit der Enter-Taste
+    E-Taste mit Personen oder Objekten zu interagieren.\n\n\nMit der Enter-Taste
     kannst du an dem Smartcard Automat die Einzahlung best\xE4tigen und mit der Backspace-Taste
     Abbrechen und den Automat verlassen."
   m_isRightToLeft: 0

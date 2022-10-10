@@ -11,11 +11,15 @@ public class GameData : MonoBehaviour
  
     public float ChargeAmount { get; set; }
     public float NewBalance { get; set; }
+    
+    public float MouseX { get; set; }
+    public float MouseY { get; set; }
 
     private void Start()
     {
         Cash = 20f;
     }
+    
 
     public bool hasTablet;
     
@@ -28,4 +32,6 @@ public class GameData : MonoBehaviour
     public bool payed;
 
     public int questID;
+
+    public bool isInGame;
 }

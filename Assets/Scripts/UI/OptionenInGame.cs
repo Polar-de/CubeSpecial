@@ -10,16 +10,21 @@ public class OptionenInGame : MonoBehaviour
     [SerializeField] Button closeButton;
 
     private GameManager gameManager;
+
+    private GameData _gameData;
     // Start is called before the first frame update
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
-        closeButton.onClick.AddListener(LoadTestScene);
+        _gameData = FindObjectOfType<GameData>();
+        closeButton.onClick.AddListener(QuitOptions);
     }
 
-    // Update is called once per frame
-    private void LoadTestScene()
+    private void QuitOptions()
     {
-        gameManager.LoadScene("TestScene");
+        SceneManager.UnloadSceneAsync("OptionenInGame");
+        _gameData.isInGame = true;
+        Cursor.lockState = CursorLockMode.Locked;
     }
+    
 }
